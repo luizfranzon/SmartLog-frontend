@@ -112,6 +112,50 @@ export function SectionServices() {
           alt=""
         />
       </div>
+      <div className='w-full min-w-96 overflow-x-scroll px-10 sm:p-0'>
+        <table className='border-collapse w-full mt-24'>
+          <thead className='bg-veryDarkBlue text-white font-bold border-2 border-veryDarkBlue'>
+            <tr>
+              <td className='p-4 text-lg'>Serviço</td>
+              <td className='text-green-500 text-center p-4 text-lg'>Basic</td>
+              <td className='text-orange-500 text-center p-4 text-lg'>Premium</td>
+              <td className='text-amber-400 text-center p-4 text-lg'>Enterprise</td>
+            </tr>
+          </thead>
+          <tbody className='[&>*:nth-child(2n+1)]:bg-slate-200 border-2 border-veryDarkBlue'>
+            <tr>
+              <td className='p-4 '>Lorem ipsum dolor</td>
+              <td className='p-4 '><Check className='w-full' size={24} color="#0d1118" /></td>
+              <td className='p-4 '><Check className='w-full' size={24} color="#0d1118" /></td>
+              <td className='p-4 '><Check className='w-full' size={24} color="#0d1118" /></td>
+            </tr>
+            <tr>
+              <td className='p-4 '>Consectetur</td>
+              <td className='p-4 '><Check className='w-full' size={24} color="#0d1118" /></td>
+              <td className='p-4 '><Check className='w-full' size={24} color="#0d1118" /></td>
+              <td className='p-4 '><Check className='w-full' size={24} color="#0d1118" /></td>
+            </tr>
+            <tr className=''>
+              <td className='p-4 '>Sed do eiusmod</td>
+              <td className='p-4 '></td>
+              <td className='p-4 '><Check className='w-full' size={24} color="#0d1118" /></td>
+              <td className='p-4 '><Check className='w-full' size={24} color="#0d1118" /></td>
+            </tr>
+            <tr>
+              <td className='p-4 '>Incididunt ut</td>
+              <td className='p-4 '></td>
+              <td className='p-4 '></td>
+              <td className='p-4 '><Check className='w-full' size={24} color="#0d1118" /></td>
+            </tr>
+            <tr>
+              <td className='p-4 '>Ut enim ad</td>
+              <td className='p-4 '></td>
+              <td className='p-4 '></td>
+              <td className='p-4 '><Check className='w-full' size={24} color="#0d1118" /></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   )
 }
