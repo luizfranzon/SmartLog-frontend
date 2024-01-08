@@ -1,4 +1,4 @@
-import { LogoSmartLog } from "./LogoSmartLog";
+import { LogoSmartLog } from './LogoSmartLog'
 
 export function Footer() {
   return (

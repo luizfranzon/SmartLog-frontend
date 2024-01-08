@@ -16,16 +16,17 @@ export function SectionAbout() {
       <div className="mt-12 flex flex-col items-start justify-between gap-6 lg:flex-row">
         <div className="m-auto mt-4 max-w-md text-xl lg:m-0">
           <p>
-            Fundada em <strong>2013</strong>, a <strong>SmartLog</strong> é
-            uma empresa que oferece serviços logísticos integrados, comprometida
-            em fornecer um serviço de excelência, com foco na qualidade, na
+            Fundada em <strong>2013</strong>, a <strong>SmartLog</strong> é uma
+            empresa que oferece serviços logísticos integrados, comprometida em
+            fornecer um serviço de excelência, com foco na qualidade, na
             eficiência e na satisfação dos clientes.
           </p>
           <br />
           <p>
-            Com <strong>mais de 20 anos</strong> de experiência no mercado, a <strong>SM</strong>{' '}
-            é especialista em planejamento, organização e controle de atividades
-            de movimentação, armazenagem e distribuição de mercadorias.
+            Com <strong>mais de 20 anos</strong> de experiência no mercado, a{' '}
+            <strong>SM</strong> é especialista em planejamento, organização e
+            controle de atividades de movimentação, armazenagem e distribuição
+            de mercadorias.
           </p>
         </div>
         <Image

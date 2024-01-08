@@ -18,7 +18,8 @@ const apercuMini = localFont({
 
 export const metadata: Metadata = {
   title: 'SmartLog | Logística Integrada',
-  description: 'Logística com eficiência e qualidade, para o sucesso do seu negócio.',
+  description:
+    'Logística com eficiência e qualidade, para o sucesso do seu negócio.',
   icons: ['/favicon.png'],
 }
 

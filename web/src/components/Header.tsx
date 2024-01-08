@@ -1,6 +1,3 @@
-import Image from 'next/image'
-import Logo from '../../public/assets/mklog-logo.png'
-
 import '@/styles/navItemHoverAnimation.css'
 import Link from 'next/link'
 import { LogoSmartLog } from './LogoSmartLog'

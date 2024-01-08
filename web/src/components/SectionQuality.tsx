@@ -56,8 +56,8 @@ export function SectionQuality() {
       </p>
       <br />
       <p className="px-5 text-xl">
-        Para alcançar esse objetivo, a SmartLog se compromete com os
-        seguintes <span className="font-bold">princípios</span>:
+        Para alcançar esse objetivo, a SmartLog se compromete com os seguintes{' '}
+        <span className="font-bold">princípios</span>:
       </p>
       <div className="mt-20">
         <AccordionComponent />
