@@ -1,12 +1,25 @@
-import type { Metadata } from 'next'
-import { Rubik } from 'next/font/google'
-import './globals.css'
+import '@/styles/globals.css'
 
-const rubik = Rubik({ subsets: ['latin'] })
+import type { Metadata } from 'next'
+import { Inter } from 'next/font/google'
+import localFont from 'next/font/local'
+
+const inter = Inter({ subsets: ['latin'] })
+const apercuMini = localFont({
+  src: [
+    {
+      path: '../../public/fonts/ApercuMonoProBold.ttf',
+      weight: '600',
+      style: 'normal',
+    },
+  ],
+  variable: '--font-apercu',
+})
 
 export const metadata: Metadata = {
-  title: 'GuardNet',
-  description: 'O primeiro provedor de internet que se preocupa com sua privacidade.',
+  title: 'SmartLog | Logística Integrada',
+  description: 'Logística com eficiência e qualidade, para o sucesso do seu negócio.',
+  icons: ['/favicon.png'],
 }
 
 export default function RootLayout({
@@ -15,8 +28,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pt-BR">
-      <body className={rubik.className}>{children}</body>
+    <html className="scroll-smooth" lang="pt-BR">
+      <body className={`${inter.className} ${apercuMini.variable}`}>
+        {children}
+      </body>
     </html>
   )
 }

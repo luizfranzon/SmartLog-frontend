@@ -8,10 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        mono: ['var(--font-apercu)'],
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        truck: "url('/assets/hero-bg.jpg')",
+      },
+      colors: {
+        greenLime: '#C2FF1A',
+        veryDarkBlue: '#0D1118',
       },
     },
   },
